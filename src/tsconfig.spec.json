@@ -10,10 +10,16 @@
   },
   "files": [
     "test.ts",
-    "polyfills.ts"
+    "polyfills.ts",
+    "../node_modules/ng2-smooth-scroll/index.ts",
+    "../node_modules/ng2-smooth-scroll/lib/ng2-SmoothScroll.directive.ts"
   ],
   "include": [
     "**/*.spec.ts",
-    "**/*.d.ts"
+    "../src/**/*",
+    "**/*.d.ts",
+    "../node_modules/ng2-smooth-scroll/index.ts",
+    "../node_modules/ng2-smooth-scroll/lib/ng2-SmoothScroll.directive.ts"
   ]
+  
 }

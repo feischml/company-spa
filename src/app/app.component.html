@@ -2,18 +2,36 @@
 
 <app-navbar></app-navbar>
 
+<div class="icon-bar-sticky">
+  <a class="up" (click)="scrollTo('navbar')">Up</a> 
+</div>
+
+<div class="icon-bar-sticky">
+  <a class="how" (click)="scrollTo('how')">How</a> 
+</div>
+
+<div class="icon-bar-sticky">
+  <a class="what" (click)="scrollTo('what')">What</a> 
+</div>
+
+<div class="icon-bar-sticky">
+  <a class="team" (click)="scrollTo('team')">Team</a> 
+</div>
+
+<div class="icon-bar-sticky">
+  <a class="why" (click)="scrollTo('why')">Why</a> 
+</div>
+
 <main class="page">
   <section class="clean-block about-us gradientWhy" style="background-color:#ecc7c0;padding-bottom:10px;">
-    
-    <app-whyandvalues></app-whyandvalues>
-
-    <app-what></app-what>
-  
+      <app-whyandvalues></app-whyandvalues>
+      <app-what></app-what>
   </section>
 
-  <app-how></app-how>
+    <app-how></app-how>
 
-  <app-team></app-team>
+    <app-team></app-team>
+
 </main>
 <app-footer></app-footer>
 

@@ -9,6 +9,9 @@ import { TeamComponent } from './team/team.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+// import smooth scroll
+import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scroll";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +20,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     HowComponent,
     TeamComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    SmoothScrollToDirective,
+    SmoothScrollDirective
   ],
   imports: [
     BrowserModule
