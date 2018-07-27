@@ -20,49 +20,62 @@
   .icon-bar-sticky a:hover {
     background-color: #000;
   }
-  
-  .up {
-    background: rgb(53, 211, 14);
-    color: white;
-    -webkit-transform: translateY(-200%);
-    -ms-transform: translateY(-200%);
-    transform: translateY(-50%);
-  }
 
   .how {
-    background: rgb(54, 99, 223);
+    background: #D0E3CC;
+    color: black;
+    -webkit-transform: translateY(-320%);
+    -ms-transform: translateY(-320%);
+    transform: translateY(-320%);
+  }
+
+  .what {
+    background: #F7FFDD;
     color: white;
+    -webkit-transform: translateY(-440%);
+    -ms-transform: translateY(-440%);
+    transform: translateY(-440%);
+    
+  }
+
+  .why {
+    background: #FCFDAF;
+    color: white;
+    -webkit-transform: translateY(-560%);
+    -ms-transform: translateY(-560%);
+    transform: translateY(-560%);
+  } 
+
+  .team {
+    background: #EFD780;
+    color: black;
     -webkit-transform: translateY(-200%);
     -ms-transform: translateY(-200%);
     transform: translateY(-200%);
   }
 
-  .what {
-    background: rgb(226, 37, 116);
+  .up {
+    background: #DBA159;
     color: white;
-    -webkit-transform: translateY(-350%);
-    -ms-transform: translateY(-350%);
-    transform: translateY(-350%);
-  }
-
-  .team {
-    background: rgb(255, 243, 79);
-    color: black;
-    -webkit-transform: translateY(-500%);
-    -ms-transform: translateY(-500%);
-    transform: translateY(-500%);
+    -webkit-transform: translateY(-200%);
+    -ms-transform: translateY(-200%);
+    transform: translateY(-80%);
   }
   
-  .icon-bar-sticky .team{
-      color: black
+  .icon-bar-sticky .team {
+    color: #3c2e3d
   }
 
-  .why {
-    background: rgb(255, 125, 103);
-    color: white;
-    -webkit-transform: translateY(-650%);
-    -ms-transform: translateY(-650%);
-    transform: translateY(-650%);
+  .icon-bar-sticky .how {
+    color: #3c2e3d
+  }
+
+  .icon-bar-sticky .what {
+    color: #3c2e3d
+  }
+
+  .icon-bar-sticky .why {
+    color: #3c2e3d
   }
 
   .content {
