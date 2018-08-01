@@ -1,6 +1,6 @@
 .icon-bar-sticky {
     position: fixed;
-    top: 90%;
+    top: 36%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -22,15 +22,16 @@
   }
 
   .how {
-    background: #D0E3CC;
+    background: rgba(208, 227, 204, 0.808);
     color: black;
-    -webkit-transform: translateY(-320%);
-    -ms-transform: translateY(-320%);
-    transform: translateY(-320%);
+    -webkit-transform: translateY(-440%);
+    -ms-transform: translateY(-440%);
+    transform: translateY(-440%);
+
   }
 
   .what {
-    background: #F7FFDD;
+    background: rgba(247, 255, 221, 0.705);
     color: white;
     -webkit-transform: translateY(-440%);
     -ms-transform: translateY(-440%);
@@ -39,7 +40,7 @@
   }
 
   .why {
-    background: #FCFDAF;
+    background: rgba(252, 253, 175, 0.705);
     color: white;
     -webkit-transform: translateY(-560%);
     -ms-transform: translateY(-560%);
@@ -47,25 +48,29 @@
   } 
 
   .team {
-    background: #EFD780;
+    background: rgba(239, 215, 128, 0.705);
     color: black;
-    -webkit-transform: translateY(-200%);
-    -ms-transform: translateY(-200%);
-    transform: translateY(-200%);
+    -webkit-transform: translateY(-320%);
+    -ms-transform: translateY(-320%);
+    transform: translateY(-320%);
+
   }
 
   .up {
-    background: #DBA159;
+    background: rgba(230, 152, 58, 0.63);
     color: white;
-    -webkit-transform: translateY(-200%);
-    -ms-transform: translateY(-200%);
-    transform: translateY(-80%);
+    -webkit-transform: translateY(200%);
+    -ms-transform: translateY(200%);
+    transform: translateY(1700%);
   }
   
   .icon-bar-sticky .team {
     color: #3c2e3d
   }
 
+  .icon-bar-sticky .up {
+    font-size: 8px;
+  }
   .icon-bar-sticky .how {
     color: #3c2e3d
   }
