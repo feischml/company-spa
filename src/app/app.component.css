@@ -27,15 +27,14 @@
     -webkit-transform: translateY(-440%);
     -ms-transform: translateY(-440%);
     transform: translateY(-440%);
-
   }
 
   .what {
     background: rgba(247, 255, 221, 0.705);
     color: white;
-    -webkit-transform: translateY(-440%);
-    -ms-transform: translateY(-440%);
-    transform: translateY(-440%);
+    -webkit-transform: translateY(-320%);
+    -ms-transform: translateY(-320%);
+    transform: translateY(-320%);
     
   }
 
@@ -50,9 +49,9 @@
   .team {
     background: rgba(239, 215, 128, 0.705);
     color: black;
-    -webkit-transform: translateY(-320%);
-    -ms-transform: translateY(-320%);
-    transform: translateY(-320%);
+    -webkit-transform: translateY(-200%);
+    -ms-transform: translateY(-200%);
+    transform: translateY(-200%);
 
   }
 
