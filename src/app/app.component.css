@@ -1,4 +1,162 @@
-.icon-bar-sticky {
+.icon-bar-stickyup {
+  position: fixed;
+  top: 95%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 38px;
+  z-index: 1;
+}
+
+.icon-bar-stickyup a {
+  display: block;
+  text-align: center;
+  font-size: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 10px;
+}
+
+.icon-bar-stickyup a:hover {
+  background-color: #000;
+}
+
+.stickyup {
+  background: rgba(230, 152, 58, 0.63);
+  color: white;
+}
+
+
+
+/******/
+
+
+.icon-bar-stickyhow {
+  position: fixed;
+  top: 36%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 38px;
+  z-index: 1;
+}
+
+.icon-bar-stickyhow a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 8px;
+}
+
+.icon-bar-stickyhow a:hover {
+  background-color: #000;
+}
+
+.stickyhow {
+  background: rgba(208, 227, 204, 0.808);
+  color: black;
+}
+
+/***************/
+
+
+.icon-bar-stickywhat {
+  position: fixed;
+  top: 24%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 38px;
+}
+
+.icon-bar-stickywhat a {
+  display: block;
+  text-align: center;
+  font-size: 8px;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.icon-bar-stickywhat a:hover {
+  background-color: #000;
+}
+
+.stickywhat {
+  background: rgba(247, 255, 221, 0.705);
+  color: white;
+}
+
+/***************/
+
+
+.icon-bar-stickyteam {
+  position: fixed;
+  top: 42%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 38px;
+}
+
+.icon-bar-stickyteam a {
+  display: block;
+  text-align: center;
+  font-size: 8px;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.icon-bar-stickyteam a:hover {
+  background-color: #000;
+}
+
+.stickyteam {
+  background: rgba(239, 215, 128, 0.705);
+  color: black;
+}
+
+/***************/
+
+
+
+.icon-bar-stickywhy {
+  position: fixed;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 38px;
+}
+
+.icon-bar-stickywhy a {
+  display: block;
+  text-align: center;
+  font-size: 8px;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.icon-bar-stickywhy a:hover {
+  background-color: #000;
+}
+
+.stickywhy {
+  background: rgba(252, 253, 175, 0.705);
+  color: white;
+}
+
+/***************/
+
+/*.icon-bar-sticky {
     position: fixed;
     top: 36%;
     -webkit-transform: translateY(-50%);
@@ -61,24 +219,24 @@
     -webkit-transform: translateY(200%);
     -ms-transform: translateY(200%);
     transform: translateY(1700%);
-  }
+  }*/
   
-  .icon-bar-sticky .team {
+  .icon-bar-stickyteam .stickyteam {
     color: #3c2e3d
   }
 
-  .icon-bar-sticky .up {
+  .icon-bar-stickyup .stickyup {
     font-size: 8px;
   }
-  .icon-bar-sticky .how {
+  .icon-bar-stickyhow .stickyhow {
     color: #3c2e3d
   }
 
-  .icon-bar-sticky .what {
+  .icon-bar-stickywhat .stickywhat {
     color: #3c2e3d
   }
 
-  .icon-bar-sticky .why {
+  .icon-bar-stickywhy .stickywhy {
     color: #3c2e3d
   }
 
